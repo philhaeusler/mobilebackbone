@@ -4,9 +4,10 @@
 <cfparam name="attributes.header" default="true">
 
 <cfif CGI.SERVER_NAME EQ "thingsico.de">
-	<cfset base = "/demos/backbone">
+	<cfset base = "/demos/backbone/">
 <cfelse>
-	<cfset base = "">
+	<!--- load the libs in a relative fashion --->
+	<cfset base = repeatString("../",listlen(cgi.SCRIPT_NAME,"/")-2)>
 </cfif>
 
 <cfif thisTag.executionMode EQ "start">
@@ -19,21 +20,21 @@
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link href="#base#/libs/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
-<link href="#base#/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="#base#libs/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+<link href="#base#libs/bootstrap/css/bootstrap.css" rel="stylesheet">
 <style type="text/css">
   body {
     padding-top: 60px;
     padding-bottom: 40px;
   }
 </style>
-<link href="#base#/libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-<script src="#base#/libs/jquery-1.7.1.min.js" type="text/javascript"></script>
-<script src="#base#/libs/underscore.js" type="text/javascript"></script>
-<script src="#base#/libs/backbone.js" type="text/javascript"></script>
-<script type="text/javascript" src="#base#/libs/google-code-prettify/prettify.js"></script>
-<script src="#base#/libs/bootstrap/js/bootstrap.min.js"></script>
-<base href="#base#/">
+<link href="#base#libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<script src="#base#libs/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="#base#libs/underscore.js" type="text/javascript"></script>
+<script src="#base#libs/backbone.js" type="text/javascript"></script>
+<script type="text/javascript" src="#base#libs/google-code-prettify/prettify.js"></script>
+<script src="#base#libs/bootstrap/js/bootstrap.min.js"></script>
+<base href="#base#">
 </cfoutput>
 </head>
 
