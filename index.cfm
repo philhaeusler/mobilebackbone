@@ -16,11 +16,11 @@ existing APIs over a RESTful JSON interface.</p>
 	<div class="span5"><h3>Phil Haeusler</h3><p>G+ <a href="https://plus.google.com/u/0/118343074546999808818/">Phil Haeusler</a><br/>Twitter: <a href="http://twitter.com/philhaeusler" target="_blank">@philhaeusler</a></p></div>
 	<div class="span6"><h3>View Online</h3>
 
-<p class="lead"><a href="http://thingsico.de/demos/backbone/">http://thingsico.de/demos/backbone/</a></p>
+<p class="lead"><a href="http://thingsico.de/demos/backbone/" target="_blank">http://thingsico.de/demos/backbone/</a></p>
 
 <h3>Play Along</h3>
 
-<p class="lead"><a href="https://github.com/philhaeusler/mobilebackbone">https://github.com/philhaeusler/mobilebackbone</a></p>
+<p class="lead"><a href="https://github.com/philhaeusler/mobilebackbone" target="_blank">https://github.com/philhaeusler/mobilebackbone</a></p>
 </div>
 </div>
 

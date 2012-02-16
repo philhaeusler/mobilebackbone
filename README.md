@@ -1,7 +1,7 @@
 Mobile Apps with Backbone
 =========================
 
-Source of the demo site used for the Melbourne Adobe Developers meetings 16 February 2012.
+Source of the demo site used for the Melbourne Adobe Developers meeting 16 February 2012.
 
 Demo Site
 ---------
